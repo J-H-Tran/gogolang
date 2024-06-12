@@ -1,0 +1,5 @@
+when the code imports packages contained in other modules, we manage those dependencies through the code's own
+module. It is defined by go.mod file that tracks modules that provide those packages. go.mod file stays within
+the code, including in source code repo.
+
+Enable dependency tracking: create go.mod file, run `go mod init command`
